@@ -2,6 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# import csv file
+df = pd.read_csv('Data.csv')
 # Load a built-in dataset from seaborn
 df = sns.load_dataset('iris')  # You can change 'iris' to another seaborn dataset like 'titanic'
 
